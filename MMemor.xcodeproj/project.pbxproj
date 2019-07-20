@@ -13,7 +13,8 @@
 		1602415A22E399D300D77BE2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1602415822E399D300D77BE2 /* Main.storyboard */; };
 		1602415C22E399D300D77BE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1602415B22E399D300D77BE2 /* Assets.xcassets */; };
 		1602415F22E399D300D77BE2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1602415D22E399D300D77BE2 /* LaunchScreen.storyboard */; };
-		1602416722E3A0F500D77BE2 /* sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1602416622E3A0F500D77BE2 /* sound.mp3 */; };
+		1602416722E3A0F500D77BE2 /* interval_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1602416622E3A0F500D77BE2 /* interval_sound.mp3 */; };
+		1602416A22E3AF9100D77BE2 /* timer_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1602416922E3AF9100D77BE2 /* timer_sound.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +26,8 @@
 		1602415B22E399D300D77BE2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1602415E22E399D300D77BE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1602416022E399D300D77BE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1602416622E3A0F500D77BE2 /* sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sound.mp3; sourceTree = "<group>"; };
+		1602416622E3A0F500D77BE2 /* interval_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = interval_sound.mp3; sourceTree = "<group>"; };
+		1602416922E3AF9100D77BE2 /* timer_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = timer_sound.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +60,7 @@
 		1602415122E399D200D77BE2 /* MMemor */ = {
 			isa = PBXGroup;
 			children = (
-				1602416622E3A0F500D77BE2 /* sound.mp3 */,
+				1602416822E3A2DA00D77BE2 /* Sound */,
 				1602415222E399D200D77BE2 /* AppDelegate.swift */,
 				1602415422E399D200D77BE2 /* SceneDelegate.swift */,
 				1602415622E399D200D77BE2 /* ViewController.swift */,
@@ -68,6 +70,15 @@
 				1602416022E399D300D77BE2 /* Info.plist */,
 			);
 			path = MMemor;
+			sourceTree = "<group>";
+		};
+		1602416822E3A2DA00D77BE2 /* Sound */ = {
+			isa = PBXGroup;
+			children = (
+				1602416622E3A0F500D77BE2 /* interval_sound.mp3 */,
+				1602416922E3AF9100D77BE2 /* timer_sound.mp3 */,
+			);
+			path = Sound;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,7 +139,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1602416722E3A0F500D77BE2 /* sound.mp3 in Resources */,
+				1602416722E3A0F500D77BE2 /* interval_sound.mp3 in Resources */,
+				1602416A22E3AF9100D77BE2 /* timer_sound.mp3 in Resources */,
 				1602415F22E399D300D77BE2 /* LaunchScreen.storyboard in Resources */,
 				1602415C22E399D300D77BE2 /* Assets.xcassets in Resources */,
 				1602415A22E399D300D77BE2 /* Main.storyboard in Resources */,
